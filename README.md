@@ -17,4 +17,4 @@ Build and run using:
 
 ```npm start```
 
-server is running on port `8080` go to `http://localhost:8080` in the browser see the app running locally
+server is running on port `5000` go to `http://localhost:5000` in the browser see the app running locally
