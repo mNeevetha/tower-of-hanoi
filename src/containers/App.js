@@ -24,18 +24,18 @@ var lists =[];
     return (
       <div className="app">
         <h1>Hello, Curious Five!!!</h1>
-        <div style={{display:'inline-block', paddingLeft:'200px',width:'250px', height:'350px',position:'relative', top: '-31px', right:'27px'}}>
+        <div style={{display:'inline-block', paddingLeft:'200px',width:'250px', height:'350px',position:'relative', top: '-78px', right:'-15px'}}>
            <ul style={{listStyle: 'none', width:'400px'}}  >
          {this.createDiskList()}
             </ul>     
             </div>  
-        <div style={{display:'inline-block',  padding:'25px', width:'250px', height:'350px', backgroundSize: 'cover', backgroundImage:"url(" + towerimg + ")"}}>
+        <div style={{display:'inline-block',  margin:'45px', width:'250px', height:'350px', backgroundSize: 'cover', backgroundImage:"url(" + towerimg + ")"}}>
          
           </div>
-            <div style={{display:'inline-block', padding:'25px' , width:'250px', height:'350px' ,backgroundSize: 'cover', backgroundImage:"url(" + towerimg + ")"}}>
+            <div style={{display:'inline-block', margin:'45px' , width:'250px', height:'350px' ,backgroundSize: 'cover', backgroundImage:"url(" + towerimg + ")"}}>
          
           </div>
-            <div style={{display:'inline-block' , padding:'25px' ,width:'250px', height:'350px',backgroundSize: 'cover',backgroundImage:"url(" + towerimg + ")"}}>
+            <div style={{display:'inline-block' , margin:'45px' ,width:'250px', height:'350px',backgroundSize: 'cover',backgroundImage:"url(" + towerimg + ")"}}>
         
           </div>
       </div>
