@@ -24,15 +24,15 @@ class App extends Component {
             width: "250px",
             height: "350px",
             position: "relative",
-            top: "-31px",
-            right: "27px"
+            top: "-78px",
+            right: "-15px"
           }}
         >
           <ul style={{ listStyle: "none", width: "400px" }}>
             {this.createDiskList()}
           </ul>
         </div>
-        <Droppable types={["text"]} />
+        <Droppable types={["text"]} />      
       </div>
     );
   }

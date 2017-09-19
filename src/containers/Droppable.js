@@ -18,13 +18,13 @@ export default class Droppable extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{display:"inline-block"}}>
         <div
           onDrop={event => this.drop(event)}
           onDragOver={event => this.allowDrop(event)}
           style={{
             display: "inline-block",
-            padding: "25px",
+            margin: "25px",
             width: "250px",
             height: "350px",
             backgroundSize: "cover",
@@ -36,7 +36,7 @@ export default class Droppable extends React.Component {
           onDragOver={event => this.allowDrop(event)}
           style={{
             display: "inline-block",
-            padding: "25px",
+            margin: "25px",
             width: "250px",
             height: "350px",
             backgroundSize: "cover",
@@ -48,7 +48,7 @@ export default class Droppable extends React.Component {
           onDragOver={event => this.allowDrop(event)}
           style={{
             display: "inline-block",
-            padding: "25px",
+            margin: "25px",
             width: "250px",
             height: "350px",
             backgroundSize: "cover",
